@@ -65,8 +65,8 @@
   color: #fff;
   border: 2px solid #f60;
 }
-.pricing-toggle-button button{
-    cursor: pointer;
+.pricing-toggle-button button {
+  cursor: pointer;
 }
 .pricing-sub-1 {
   color: gray;
@@ -91,5 +91,23 @@
   font-size: 18px;
 }
 .price-item-flex p {
-    font-weight: 300;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 0px) and (max-width: 550px) {
+  .pricing-toggle-button {
+    width: 100%;
+  }
+  .pricing-flex {
+    flex-direction: column;
+  }
+  .pricing-table {
+    padding: 10px;
+  }
+  .pricing-col {
+    width: 100%;
+  }
+  .pricing-col p {
+    width: 80%;
+  }
 }
